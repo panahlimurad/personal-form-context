@@ -1,0 +1,35 @@
+.container {
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 230px;
+    height: 300px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #414a74;
+    color: #fff;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.card img{
+    width: 90%;
+    object-fit: cover ;
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 70%;
+}
+
+.infoPersonal{
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+}
